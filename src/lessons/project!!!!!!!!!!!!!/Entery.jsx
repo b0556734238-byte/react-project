@@ -37,6 +37,7 @@ return <>
   <label > הכנס  קוד:</label>
   <input type="number" />
   <button onClick={() => checkUsers(id)}>אישור</button>
+  button onClick={() => navigate('/Enrolment/')}>צור חשבון</button>
 {/* git add .
 git commit -m "Update home page"
 git push */}
