@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 2rem;
+    width: 100vw;
+    height: 8rem;
+    background-color: black;
+    font-size: 1.7rem;
+}
+
+.link {
+    text-decoration: none;
+    padding: 2rem;
+    color: rgb(229, 163, 141);
+}
+
+.active {
+    color: coral;
+}
