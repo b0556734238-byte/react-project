@@ -37,6 +37,14 @@ return <>
   <label > הכנס  קוד:</label>
   <input type="number" />
   <button onClick={() => checkUsers(id)}>אישור</button>
+    <p>ברוכים הבראים לקבלת מילגה</p>
+  <h3 onClick={() => { navigate('/Enrolment/') }}>אין לך חשבון? צור אותו עכשיו </h3>
+  <label > הכנס מספר זהות:</label>
+  <input type="text"
+    onChange={(e) => setId(e.target.value)} />
+  <label > הכנס  קוד:</label>
+  <input type="number" />
+  <button onClick={() => checkUsers(id)}>אישור</button>
 {/* git add .
 git commit -m "Update home page"
 git push */}
